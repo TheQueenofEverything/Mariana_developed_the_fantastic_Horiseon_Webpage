@@ -9,7 +9,4 @@ Development time (total): 16 hours
 Difficulty Level (0-10): 8
 
 Important Notes:
-
-Inside the CSS style sheet there are:
-- Notes on how the style sheet is organized, in sections. Inside each section there are subsections describing the code corresponding to each element in the webpage;
-- Final Note  
+- Inside the CSS style sheet there are notes on how the style sheet is organized, in sections. Inside each section there are subsections describing the code corresponding to each element in the webpage.
