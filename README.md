@@ -12,5 +12,4 @@ Important Notes:
 
 Inside the CSS style sheet there are:
 - Notes on how the style sheet is organized, in sections. Inside each section there are subsections describing the code corresponding to each element in the webpage;
-- Comments when an issue couldn't be fixed/ unable to fix at the time;
 - Final Note  
