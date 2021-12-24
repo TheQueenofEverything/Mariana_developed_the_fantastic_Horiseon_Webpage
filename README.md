@@ -1,13 +1,14 @@
-# RefactoringChallenge_the_Horiseon_Webpage
-CHALLENGE 1 (Dec.19 2021) : HTML CSS Git Challenge: Code Refactor
+# Refactoring_Challenge_Horiseon_Webpage
 
-Goal:
-The refactoring challenge consists in developing a webpage to satify the client's criteria. 
+December 19,  2021
 
+Project name: Refactoring_Challenge_Horiseon_Webpage
+Project duration (total): 19 hours
+Project start date/end date: 12/17/2021 / 12/19/2021
+Project submission date: 12/24/2021
+Project goal: The project consists in satisfying the client's criteria by helping refactoring a website by making it better documented and structured using HTML and CSS.
 Description of the project:
 
 
-Project Duration (total): 19 hours
-
 Important Notes:
-- Inside the CSS style sheet there are notes on how the style sheet is organized, in sections. Inside each section there are subsections describing the code corresponding to each element in the webpage.
+- The CSS style sheet contains comments ( */ /* ) describing sections.
