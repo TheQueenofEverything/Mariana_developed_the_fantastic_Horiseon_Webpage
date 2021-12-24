@@ -7,7 +7,7 @@ The refactoring challenge consists in developing a webpage to satify the client'
 Description of the project:
 
 
-Development hours (total): 16 hours
+Project Duration (total): 19 hours
 
 Important Notes:
 - Inside the CSS style sheet there are notes on how the style sheet is organized, in sections. Inside each section there are subsections describing the code corresponding to each element in the webpage.
