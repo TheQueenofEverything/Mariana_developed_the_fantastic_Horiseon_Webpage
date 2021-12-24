@@ -19,6 +19,10 @@ SECTION 5) SOCIAL MEDIA MARKETING
 SECTION 6) BENEFITS COLUMN
 SECTION 7) FOOTER 
 
+Colors:
+Off Red: #a50808
+Off White: #fffefe
+Off Black: #1F1F1C
 
 
 
@@ -28,21 +32,24 @@ SECTION 7) FOOTER
 /* HEADER BOX */
 
 .header {
-    padding: 50px;
+	width: 100%;
+	background-color: #a50808;
+	/*
+	padding: 50px;
     position: relative;
     border: 20px solid;
     float: left;
     margin: 0;
+	*/
+	
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
     font-size: 20px;
     text-align: center;
-    background-color:  #000000;
 }
 
 /* Elements inside the Header - Sort of a Main Menu on top of this page -  / Element "a" = 'Online Reputation Management' and 'Social Media Marketing' ONLY | 'Search Engine Optimization' is NOT here.  */
 a {
     color: #fffefe;
-    background-color: #000000;
     letter-spacing: 7px;
     text-decoration: none;
     padding-left: 40px;
@@ -51,22 +58,20 @@ a {
 /* HORISEON - MAIN TITLE - TEXT BOX */
 
 .header h1 {
-    font-variant-position: super;
-    font-size: 200px;
-    letter-spacing: 80px;
+	font-size: 200px;
     color: rgb(246, 239, 253);
-    color: #ffffff;
+    /*font-variant-position: super;*/
+    /*
+
+    letter-spacing: 80px;
+
+
+	
+	
     padding-left: 105px;
+	*/
 }
 
-/*(This script blocks elemets from ajusting when resizing the webpage - Attempt to block elements)*/
-
-<script type="text/javascript">
-    var bodyCacheable = true;
-    
-    var exclusionReason = {"shouldRender":true,"forced":false};
-    var ssrInfo = {"renderBodyTime":924,"renderTimeStamp":1639861883368}
-</script>
 
 /* HEADER BUTTONS */
 
@@ -86,19 +91,21 @@ a {
 }
 
 /* Social Media Marketing CLICK Button */
+
 .header div ul li {
     padding:50px;
     display: inline-block;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
-    font-size:20px;
+    font-size: 20px;
 }
 
+.header div ul li a {
+	color: #eee8dd;
+}
 
-<style>
-.link { color: #eee8dd; } /* CSS link color (white) */
-.link:hover { color: #a50808; } /* CSS link hover (red) */
-
-
+.header div ul li a:hover {
+	color: #a50808;
+}
 
 
 /* ---------------- SECTION 2) BODY ---------------- */
@@ -112,36 +119,99 @@ a {
 }
 
 body {
-    background-color: #000000;
+   background-color: #1F1F1C;
 }
 
-.hero {
-    height: 300px;
-    width: 100%;
-    margin: 0;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    position: relative;
+/* HERO Image and containter WIP */
+#hero {
+    height: 500px;
+	width: 100%;
+    margin-bottom: 25px;
+	margin: 0 auto;
+	overflow: hidden;
 }
+
+#hero img {
+	width: 100%;
+}
+
 
 
 /* Search Engine Optimization Float*/
+.content {
+    width: 100%;
+    display: inline-block;
+    /*margin-left: 50px;*/
+	overflow: hidden;
+}
 
+.content div {
+	background-color: #918f8f;
+	width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+	padding-bottom: 100px;
+
+	/*
+	margin-left: 350px;
+	margin: 0 auto;
+	box-sizing: content-box;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    right: 67px;
+	
+*/
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    font-size: 36px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.content div img{
+	/*
+	float: right;
+	position: relative;
+	margin:auto;
+	max-height: 679px;
+	*/
+	width: 100%;
+
+    
+}
+
+.content div h2 {
+	padding-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.content div p {
+	padding: 0 90px 0 90px;
+	line-height: 1.5em;
+}
+
+
+/*
 .float-right {
     float: right;
-}
+}*/
 
-.content {
-    width: 1400px;
-    display: inline-block;
-    margin-left: 50px;
-}
+
 
 
 
 /* ---------------------- SECTION 3) SEARCH ENGINE OPTIMIZATION -----------  HTML: line 29 to 35 */
 
 /* SEARCH ENGINE OPTIMIZATION BOX */
-.search-engine-optimization {
+/*
+#search-engine-optimization {
     box-sizing: content-box;
     position: relative;
     top: 20px;
@@ -156,28 +226,28 @@ body {
     border-radius: 20px;
     background-color: #918f8f;
     color: #ffffff;
-
 }
+*/
 
 
 /* SEARCH ENGINE OPTIMIZATION (Title) - TEXT */
-.search-engine-optimization h2 {
+/*#search-engine-optimization h2 {
     padding-bottom: 40px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-top: 20px;
     font-size: 60px;
     text-align: center;
-}
+}*/
 
 
 /* SEARCH ENGINE OPTIMIZATION - IMAGE */
-.search-engine-optimization img {
+/*#search-engine-optimization img {
     position: relative;
     float:none;
     max-height: 693px;
     margin:auto;
-}
+}*/
 
 
 
@@ -185,7 +255,8 @@ body {
 /* ------------- SECTION 4) ONLINE REPUTATION MANAGEMENT SECTION -------  HTML: line 35 to 42 */
 
 /* ONLINE REPUTATION MANAGEMENT BOX */
-.online-reputation-management {
+/*
+#online-reputation-management {
     box-sizing: content-box;
     position: relative;
     top: 20px;
@@ -202,36 +273,28 @@ body {
     border-radius: 20px;
     background-color: #918f8f;
     color: #ffffff;
-    
 }
+*/
 
-
-
-/* ONLINE REPUTATION MANAGEMENT FLOAT */
-.float-left {
-    float: right;
-    margin-left: 55px;
-
-}
 
 /* ONLINE REPUTATION MANAGEMENT - TEXT */
-.online-reputation-management h2 {
+/*#online-reputation-management h2 {
     padding-bottom: 40px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-top: 20px;
     font-size: 60px;
     text-align: center;
-}
+}*/
 
 /* ONLINE REPUTATION MANAGEMENT - IMAGE */
 
-.online-reputation-management img {
+/*#online-reputation-management img {
     position: relative;
-    float:none;
+    float: none;
     max-height: 679px;
     margin:auto;
-}
+}*/
 
 
 
@@ -244,8 +307,9 @@ body {
 
 
 /* SOCIAL MEDIA MARKETING BOX */
-.social-media-marketing {
-    box-sizing: content-box;
+/*
+#social-media-marketing {
+   box-sizing: content-box;
     position: relative;
     top: 20px;
     bottom: 20px;
@@ -261,40 +325,35 @@ body {
     border-radius: 20px;
     background-color: #918f8f;
     color: #ffffff;
-
 }
+*/
 
 /* SOCIAL MEDIA MARKETING IMAGE */
-.social-media-marketing img {
+/*#social-media-marketing img {
     position: relative;
     float:none;
     max-height: 718px;
     margin:auto;
-}
+}*/
 
 
 /* SOCIAL MEDIA MARKETING Title - TEXT */
-.social-media-marketing h2 {
+/*#social-media-marketing h2 {
     padding-bottom: 40px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-top: 20px;
     font-size: 60px;
     text-align: center;
-}
-
+}*/
+/*
 p {
-
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 5px;
     font-size: 25px;
     text-align: center;
-
-
-
-
-}
+}*/
 
 
 
@@ -314,7 +373,7 @@ p {
     background-color: #ffffff;
 }
 
-.benefit-lead {
+#benefit-lead {
     padding-top: 150px;
     margin-bottom: 10px;
     font-size: 25px;
@@ -322,15 +381,7 @@ p {
     color: #000000;
 }
 
-.benefit-brand {
-    padding-top: 150px;
-    margin-bottom: 32px;
-    font-size: 25px;
-    text-align: center;
-    color: #000000;
-}
-
-.benefit-cost {
+#benefit-brand {
     padding-top: 150px;
     margin-bottom: 32px;
     font-size: 25px;
@@ -338,22 +389,30 @@ p {
     color: #000000;
 }
 
+#benefit-cost {
+    padding-top: 150px;
+    margin-bottom: 32px;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
 
-.benefit-lead h3 { /*Lead Generation (Title) - TEXT */
+
+#benefit-lead h3 { /*Lead Generation (Title) - TEXT */
     margin-bottom: 10px;
     text-align: center;
     font-size: 50px;
     letter-spacing: 10px;
 }
 
-.benefit-brand h3 {  /*Brand Awareness (Title) - TEXT */
+#benefit-brand h3 {  /*Brand Awareness (Title) - TEXT */
     margin-bottom: 10px;
     text-align: center;
     font-size: 50px;
     letter-spacing: 10px;
 }
 
-.benefit-cost h3 { /* Cost Management (Title) - TEXT */
+#benefit-cost h3 { /* Cost Management (Title) - TEXT */
     margin-bottom: 10px;
     text-align: center;
     font-size: 50px;
@@ -362,19 +421,19 @@ p {
 
 /* BENEFITS COLUMN IMAGES */
 
-.benefit-lead img { /* Lead Generation Image*/ 
+#benefit-lead img { /* Lead Generation Image*/ 
     display: block;
     margin: 10px auto;
     max-width: 500px;
 }
 
-.benefit-brand img { /* Brand Awareness Image*/ 
+#benefit-brand img { /* Brand Awareness Image*/ 
     display: block;
     margin: 10px auto;
     max-width: 500px;
 }
 
-.benefit-cost img { /* Cost Management Image*/ 
+#benefit-cost img { /* Cost Management Image*/ 
     display: block;
     margin: 10px auto;
     max-width: 500px;
