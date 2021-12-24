@@ -21,7 +21,7 @@ Project goal: The project consists in helping refactoring a website through HTML
 
 
 
-Description of the project:
+Project Discription:
 - Refactoring and redesigning the 'Horison' Website. 
 
 
