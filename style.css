@@ -1,0 +1,300 @@
+
+
+/*
+-------IMPORTANT NOTES:---------
+
+Quick definitions to identify elements & data types used in this document:
+- Padding = The space between its content and its border
+- Margin = Used to define the space around elements
+- Float = Places an element on the left or right side of its container
+
+
+THIS CSS DOCUMENT IS DIVIDED IN SECTIONS:
+
+SECTION 1) HEADER 
+SECTION 2) BODY
+SECTION 3) CONTENT
+SECTION 4) BENEFITS 
+SECTION 5) FOOTER 
+SECTION 6) MOBILE STYLING
+SECTION 7) DESKTOP STYLING
+
+Colors:
+Red: #F11818
+Off White: #fffefe
+Off Black: #1F1F1C
+
+
+
+/* ---------------- SECTION 1) HEADER ---------------- */
+
+
+/* HEADER BOX */
+
+header {
+	width: 100%;
+	background-color: #1F1F1C;
+	/*
+	padding: 50px;
+    position: relative;
+    border: 20px solid;
+    float: left;
+    margin: 0;
+	*/
+	
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Elements inside the Header - Sort of a Main Menu on top of this page -  / Element "a" = 'Online Reputation Management' and 'Social Media Marketing' ONLY | 'Search Engine Optimization' is NOT here.  */
+a {
+    color: #fffefe;
+    letter-spacing: 7px;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+/* HORISEON - MAIN TITLE - TEXT BOX */
+
+header h1 {
+    color: #fffefe;
+    /*font-variant-position: super;
+    letter-spacing: 80px;
+    padding-left: 105px;
+	*/
+}
+
+
+/* HEADER BUTTONS */
+
+/* Search Engine Optimization CLICK Button */
+/* Note: This button does not work when clicked. Unable to find the solution here.*/
+header nav {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    font-size: 20px;
+}
+
+/* Online Reputation management CLICK Button */
+header nav ul {
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    font-size: 20px;
+}
+
+/* Social Media Marketing CLICK Button */
+
+header nav ul li {
+    padding:50px;
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    font-size: 20px;
+}
+
+header nav ul li a {
+	color: #eee8dd;
+}
+
+header nav ul li a:hover {
+	color: #a50808;
+}
+
+
+/* ---------------- SECTION 2) BODY ---------------- */
+
+/* BOX */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+body {
+   background-color: #1F1F1C;
+}
+
+/* HERO Image and containter WIP */
+#hero {
+    height: 500px;
+	width: 100%;
+	margin: 0 auto;
+	/*margin-bottom: 10px;*/
+	overflow: hidden;
+}
+
+#hero img {
+	width: 100%;
+}
+
+/* ------------- SECTION 3) CONTENT ------------- */
+
+/* CONTENT BOX*/
+main article {
+    width: 100%;
+    display: inline-block;
+    /*margin-left: 50px;*/
+	overflow: hidden;
+}
+
+main article section {
+	background-color: #918f8f;
+	width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+	padding-bottom: 100px;
+
+	/*
+	margin-left: 350px;
+	margin: 0 auto;
+	box-sizing: content-box;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    right: 67px;
+	*/
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    font-size: 36px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+/* CONTENT IMAGE */
+main article section img{
+	/*
+	float: right;
+	position: relative;
+	margin:auto;
+	max-height: 679px;
+	*/
+	width: 100%;
+    
+}
+
+/* CONTENT TEXT */
+main article section h2 {
+	padding-bottom: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+main article section p {
+	padding: 0 90px 0 90px;
+	line-height: 1.5em;
+}
+
+
+/* -------------------- SECTION 4) BENEFITS ------------------- */
+
+/* BENEFETS COLUMN BOX*/
+
+.benefits {
+    margin-left: 100px;
+    margin-top: 200px;
+    position: relative;
+    float: right;
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    background-color: #fffefe;
+}
+
+.benefits section {
+	padding-top: 150px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: #1F1F1C;
+}
+
+/* BENEFITS - TEXT */
+
+.benefits section h3 {
+	margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+/* BENEFITS COLUMN IMAGES */
+
+.benefits section img {
+	width:100%;
+	display: inline-block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+
+
+
+
+/* -------------------- SECTION 5) FOOTER -----------------------*/
+
+/* FOOTER BOX + text:'2019 Horiseon Social Solution Services,Inc.' */
+footer {
+    padding: 25px;
+    clear: both;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    font-style: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: aliceblue;
+    background-color: #1F1F1C;
+}
+
+/* FOOTER TEXT: ' Made with <3 by Horiseon' */
+footer h2 {
+    padding-bottom: 30px;
+    padding-top:30px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    color: #fffefe;
+}
+
+
+
+/* FINAL NOTE: Some struggle in organizing this style sheet to make it readable and concise/clear without damaging the code and consequently, the webpage */
+
+
+/* ---------------- SECTION 6) MOBILE STYLING -------------------*/
+
+
+@media screen and (min-width: 480px) {
+	/* BODY */
+
+	header h1 {
+		font-size: 160px;
+	}
+}
+/* ---------------- SECTION 7) DESKTOP STYLING -------------------*/
+
+@media screen and (min-width: 768px) {
+	/* BODY */
+
+	header h1 {
+		font-size: 220px;
+	}
+	
+	/* CONTENT */
+	article {
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+		width: 50px;
+		
+	}
+	article section {
+		flex: none;
+	}
+}
