@@ -11,6 +11,12 @@ GitHub Repository URL:  https://github.com/TheQueenofEverything/Refactoring_Chal
 Project name: Refactoring_Challenge_Horiseon_Webpage;
 
 
+Project type: Web application/ Website
+
+
+Programming Languages used: HTML and CSS (*markup languages*)
+
+
 Project duration (total): 22 hours;
 
 
@@ -28,12 +34,19 @@ Project Discription:
 - Refactoring and redesigning the 'Horiseon' webpage. 
 
 
+Project Challenges:
+- Figuring how to restructure of the website to be semantically correct;
+- Be more efficient with the selectors and classes so that there was no code repetition; 
+- Writing useful images descriptions for accessibility.
+
+
+Features to implement in the future: 
+- Better responsive design layouts for multiple devices using media querys, setting breakpoints and creating layouts using flexbox or a grid. 
+
 
 
 Extra Notes:
 - The CSS style sheet contains comments ( */ /* ) describing sections.
-
-
 
 
 
