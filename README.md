@@ -19,7 +19,7 @@ December 19,  2021
 
 
 **Programming Languages used:** 
-- HTML and CSS (*markup languages*)
+- HTML and CSS
 
 
 **Project duration (total):** 
