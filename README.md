@@ -5,7 +5,7 @@ December 19,  2021
 Project URL: https://thequeenofeverything.github.io/Refactoring_Challenge_Horiseon_Webpage/Marianas_Refactoring_Challenge/index.html;
 
 
-GitHub Repository URL:  https://github.com/TheQueenofEverything/Refactoring_Challenge_Horiseon_Webpage
+GitHub Repository URL:  https://github.com/TheQueenofEverything/Refactoring_Challenge_Horiseon_Webpage;
 
 
 Project name: Refactoring_Challenge_Horiseon_Webpage;
