@@ -3,7 +3,7 @@
 December 19,  2021
 
 **Project URL:** 
-- https://thequeenofeverything.github.io/Refactoring_Challenge_Horiseon_Webpage/Marianas_Refactoring_Challenge/index.html
+- https://thequeenofeverything.github.io/Refactoring_Challenge_Horiseon_Webpage/index.html
 
 
 **GitHub Repository URL:** 
