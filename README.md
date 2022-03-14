@@ -1,4 +1,4 @@
-# Refactoring_Challenge_Horiseon_Webpage
+# Refactoring_a_Webpage
 
 December 19,  2021
 
@@ -11,7 +11,7 @@ December 19,  2021
 
 
 **Project name:** 
-- Refactoring_Webpage
+- Refactoring_a_Webpage
 
 
 **Project type:** 
